@@ -1,0 +1,190 @@
+  /* Sidebar Styles */
+  /* .sidebar {
+    background-color: #737791;
+    color: white !important;
+    padding-bottom: 15px;
+    position: sticky !important;
+    top: 0;
+  }
+  
+  .sidebar-header {
+    color: #000 !important;
+    padding: 5px 0px;
+    position: sticky !important;
+
+  }
+  
+  .sidebar-link {
+    color: white !important;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    border-left: 3px solid transparent;
+  }
+  
+  .sidebar-link:hover, .sidebar-link.active {
+    color: white !important;
+    background-color: #EF1016;
+  }    */
+
+
+/* ///////////////////////////////////////////////// */
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #737791;
+    color: white !important;
+    padding-bottom: 15px;
+    position: sticky !important;
+    top: 0;
+    border-radius: 10px;
+    padding-top: 15px;
+  }
+  
+  .sidebar-header {
+    color: #000 !important;
+    padding: 5px 0px;
+    position: sticky !important;
+  }
+  
+  .sidebar-link {
+    color: white !important;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+  }
+
+  
+  .sidebar-link:hover, 
+  .sidebar-link.active {
+    color: white !important;
+    background-color: #EF1016;
+    border-radius: 8px;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .accordion-arrow {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+    transform: rotate(-90deg);
+  }
+  
+  .accordion-arrow.expanded {
+    transform: rotate(0deg);
+  }
+  
+  .sub-items-container {
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+  }
+  
+  .sub-items-container.expanded {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  
+  
+  .sub-items {
+    background-color: rgba(0, 0, 0, 0.1);
+    max-height: 400px; 
+    overflow-y: auto;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #fff #737791; /* Thumb and track color */
+}
+
+/* For WebKit (Chrome, Edge, Safari) */
+.sub-items::-webkit-scrollbar {
+    width: 6px; /* Scrollbar width */
+}
+
+.sub-items::-webkit-scrollbar-track {
+    background: #737791; /* Track color */
+    border-radius: 10px;
+}
+
+.sub-items::-webkit-scrollbar-thumb {
+    background: #fff; /* Thumb color */
+    border-radius: 10px;
+}
+
+.sub-items::-webkit-scrollbar-thumb:hover {
+    background: #ff4045; /* Thumb color on hover */
+}
+
+
+  
+.sub-item {
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+}
+
+.sub-items-container.expanded .sub-item {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+  
+  .sub-item:hover {
+    background-color: rgba(239, 16, 22, 0.7) !important;
+  }
+  
+  /* Responsive adjustments */
+  /* @media (max-width: 768px) {
+    .sidebar {
+      position: relative !important;
+      margin-bottom: 20px;
+    }
+    
+    .sidebar-link {
+      padding: 8px 15px;
+    }
+    
+    .sub-item {
+      padding-left: 25px !important;
+    }
+  } */
+
+
+
+   /* Sticky behavior for medium and larger screens */
+   @media (min-width: 768px) {
+    .sidebar-col {
+      position: sticky;
+      top: 20px;
+      align-self: flex-start;
+      height: fit-content;
+    }
+    
+    .sidebar {
+      max-height: calc(100vh - 40px);
+      overflow-y: auto;
+    }
+  }
+  
+  .sidebar-header {
+    color: #000 !important;
+    font-weight: bold;
+  }
+  
+  /* Make header sticky within sidebar only on larger screens */
+  @media (min-width: 768px) {
+    .sidebar-header {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+  }
+  
+  .sidebar-link {
+    color: white !important;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+  }

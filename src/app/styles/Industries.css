@@ -1,0 +1,42 @@
+.feedback-card {
+    border-radius: 14px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+  }
+  
+  .feedback-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12) !important;
+  }
+  
+  .star {
+    color: #ddd;
+    font-size: 1.2rem;
+    margin-right: 2px;
+  }
+  
+  .star.filled-yellow {
+    color: #ffc000; 
+  }
+  
+  .star.filled-blue {
+    color: #0E1FD4; 
+  }
+  
+  .read-more-btn {
+    color: #F5454E !important;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px !important;
+  }
+  
+  .read-more-btn:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .feedback-card {
+      margin-bottom: 20px;
+    }
+  }

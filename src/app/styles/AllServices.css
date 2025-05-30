@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .hero-bg {
+    background: url("../../assets/Images/servicesImages/services-bg.png") no-repeat center center/cover;
+    position: absolute;
+    width: 100%; 
+    height: 100% !important; 
+    z-index: -1;
+}
+
+  .app-container {
+    /* min-height: 100vh; */
+    padding: 20px 100px !important;
+  }
+
+  .service-title {
+    color: #343a40;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .info-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-form {
+    border: none;
+    border-radius: 12px !important;
+    /* padding: 20px; */
+    background-color: #F3F3F3 !important;
+  }
+
+  .input-label-text{
+    font-size: 12px !important;
+    font-weight: 500;
+  }
+  
+  .input-text{
+    border-radius: 30px !important;
+font-size: 12px !important;
+  }
+
+  .newsletter-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f8ff;
+  }
+
+  .custom-thead {
+    background: #DED3D3 !important;
+    color: white;
+}
+
+
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .main-content-col {
+      width: 100%;
+    }
+  
+
+    .app-container {
+        /* min-height: 100vh; */
+        padding: 0px 0px !important;
+      }
+  }

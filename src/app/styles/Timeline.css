@@ -1,0 +1,140 @@
+.boxshadowclass:hover {
+    background-color: #F5454E !important;
+    transition: all 0.5s;
+}
+
+.boxshadowclass:hover .boxshadowclasstext {
+    color: #fff !important;
+}
+
+.hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.schedule-custom-hover-btn {
+    color: #737791 !important;
+    border: 1px solid #dcdcdc !important;
+    font-weight: 400;
+    transition: all 0.3s ease;
+  }
+
+.schedule-custom-hover-btn:hover {
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    background-color: #F5454E !important;
+  }
+  
+
+  .timeline-card {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+    border-radius: 16px !important;
+  }
+  
+  .timeline-dot-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  .timeline-dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid rgba(245, 69, 78, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    z-index: 1;
+  }
+  
+  .timeline-dot-inner {
+    font-size: 16px;
+    color: #F5454E;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .timeline-line {
+    position: absolute;
+    top: 26px;
+    left: 50%;
+    width: 2px;
+    background-color: rgba(245, 69, 78, 1);
+    transform: translateX(-50%);
+    height: 120px !important;
+  }
+  
+  .timeline-year {
+    color: #F5454E;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .timeline-title {
+    color: #737791;
+  }
+  
+  .timeline-description {
+    font-size: 16px;
+    text-align: start;
+    color: #737791;
+    padding-top: 0.5rem;
+  }
+  
+  .timeline-scroll-wrapper {
+    background-color: #F7F7F7;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+  }
+  
+  .timeline-scroll-container {
+    max-height: 31.5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+  }
+  
+  
+  .timeline-metric-card {
+    border-radius: 20px !important;
+    border: none;
+  }
+  
+  .timeline-metric-number {
+    color: #F5454E !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+  }
+  
+  .timeline-metric-label {
+    color: #737791 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .timeline-metric-card:hover {
+    background-color: #F5454E !important;
+    color: white !important;
+    transition: all 0.3s ease;
+  }
+  
+  .timeline-metric-card:hover .timeline-metric-number,
+  .timeline-metric-card:hover .timeline-metric-label {
+    color: white !important;
+  }
+  

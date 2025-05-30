@@ -1,0 +1,72 @@
+    .city-name {
+    color: #F5454E;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  .circle-icon {
+    background-color: #ffeaea;
+    border-radius: 100%;
+    padding: 5px;
+    display: inline-block;
+    /* font-size: 1.2rem; */
+  }
+  
+  .location-card {
+border-radius: 16px !important;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1); /* base scale */
+    border-color:#CDD7E7 !important ;
+  }
+  
+  .location-card:hover {
+    transform: scale(1.05); /* slight zoom */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12) !important;
+  }
+  
+  .info-text {
+    word-break: break-word;
+    color:#737791 
+  }
+  
+  .location-link {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+  
+  .arrow {
+    color: #F5454E;
+    margin-left: 4px;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* opacity: 0.2; */
+    z-index: 0;
+    padding: 0px;
+  }
+  
+  .image-overlay img {
+    /* width: 60px; */
+    height: auto;
+  }
+  
+  @media (max-width: 576px) {
+    .mumbai-card {
+      font-size: 0.9rem;
+    }
+  
+    .image-overlay img {
+      width: 40px;
+    }
+  
+    .circle-icon {
+      padding: 6px;
+      font-size: 1rem;
+    }
+  }
+  

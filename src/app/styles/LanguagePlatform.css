@@ -1,0 +1,41 @@
+/* Default state for accordion buttons */
+.accordion-button {
+    background-color: white;
+    color: grey;
+    transition: all 0.3s ease;
+}
+
+/* Hover state */
+.accordion-item .accordion-button:hover {
+    background-color: #F5454E;
+    color: white !important;
+}
+
+/* Ensures span inside also turns white (optional redundancy) */
+.accordion-item .accordion-button:hover span {
+    color: white !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background-color: #F5454E !important;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.language-tag {
+    background-color: #F9D5D7;
+    border: 1px solid #F9D5D7;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .language-tag:hover {
+    background-color: #f06570;
+    transform: scale(1.05);
+    color: #fff;
+  }
+  .language-tag:hover span {
+    color: #fff !important;
+  }
+  

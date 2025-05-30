@@ -1,0 +1,57 @@
+.audio-player {
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .list-group-item.active {
+    background-color: #F5454E !important;
+    border-color: #F5454E !important;
+  }
+  
+  .list-group-item-action:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .rhap_progress-filled {
+    background-color: #F5454E !important; /* Change this to your desired color */
+  }
+
+
+  /* Change progress bar circle (seek handle) */
+.rhap_progress-indicator {
+  background-color: #737791 !important; /* Change to your desired color */
+}
+
+/* Change the entire audio bar background */
+.rhap_container {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Change progress bar background */
+.rhap_progress-bar {
+  background-color: #737791 !important; /* Light gray */
+}
+
+/* Change the volume bar background */
+.rhap_volume-bar {
+  background-color: #737791 !important; /* Light gray */
+}
+
+/* Change the filled volume bar color */
+.rhap_volume-filled {
+  background-color: #27ae60 !important; /* Green */
+}
+
+/* Change audio player icons (Play, Pause, Next, Previous) */
+.rhap_main-controls button {
+  color: #f1c40f !important; /* Yellow icons */
+  font-size: 20px;
+}
+
+/* Change volume and additional controls icons */
+.rhap_controls-section button {
+  color: #e74c3c !important; /* Red icons */
+}
+

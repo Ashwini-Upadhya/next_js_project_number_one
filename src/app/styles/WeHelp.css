@@ -1,0 +1,29 @@
+.icon-circle {
+    background-color: #F5454E;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-card {
+    background-color: #fff;
+    border: 1px solid #CDD7E7;
+    border-radius: 20px;
+    padding: 15px 20px;
+    max-width: 320px;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .custom-card:hover {
+    background-color: #F5454E;
+    color: #fff;
+  }
+  
+  .custom-card:hover h5,
+  .custom-card:hover p {
+    color: #fff !important;
+  }
+  

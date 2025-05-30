@@ -1,0 +1,37 @@
+/* Ensure the slide takes full height so cards inside can stretch equally */
+.swiper-slide {
+    display: flex;
+    height: auto;
+  }
+  
+  /* Make the card body stretch to match other cards */
+  .boxshadowclass {
+    border-radius: 35px !important;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: background-color 0.5s ease, border-radius 0.5s ease;
+  }
+  
+  /* Hover effect */
+  .boxshadowclass:hover {
+    background-color: #F5454E !important;
+    border-radius: 35px !important;
+  }
+  
+  /* Change text color on hover */
+  .boxshadowclass:hover .boxshadowclasstext {
+    color: #fff !important;
+  }
+  
+  /* Optional: make sure card content adapts responsively */
+  .boxshadowclasstext {
+    transition: color 0.5s ease;
+  }
+  
+  .card-img-hover img {
+    transition: all 0.3s ease;
+}
+
